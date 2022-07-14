@@ -2,11 +2,12 @@
 int main()
 {
     int length , breadth;
-    printf("Enter length: ");
+    printf("Enter the length: ");
     scanf("%d" , &length);
-    printf("Enter breadth: ");
+    printf("Enter the breadth: ");
     scanf("%d" , &breadth);
 
-    printf("The area of rectangle is %d" , length*breadth);
+    printf("The area of rectangle is :%d" , length*breadth);
+    printf("thats it about the repository");
     return 0;
 }
